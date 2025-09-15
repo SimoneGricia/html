@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Esercizio 5 - Sito personale</title>
+</head>
+<body>
+
+  <header>
+    <h1 id="top">Simone Gricia</h1>
+    <nav>
+      <a href="chi-sono">Chi sono</a> |
+      <a href="hobby">Hobby</a> |
+      <a href="orario">Orario ITS</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="foto_profilo">
+      <img src="https://via.placeholder.com/150" alt="Foto profilo">
+    </section>
+
+    <section id="chiSono">
+      <h2>Chi sono</h2>
+      <p>
+        Ciao! Mi chiamo Simone Gricia e sono uno studente dell'ITS Academy.
+      </p>
+    </section>
+
+    <section id="hobby">
+      <h2>I miei hobby</h2>
+      <ul>
+        <li>Ascoltare la musica</li>
+        <li>Giocare a calcio</li>
+        <li>Studiare informatica</li>
+      </ul>
+    </section>
+
+    <section id="orario">
+      <h2>Orario ITS</h2>
+      <table border="1">
+        <tr>
+          <th>Giorno</th>
+          <th>Modulo</th>
+          <th>Orario</th>
+        </tr>
+        <tr>
+          <td>Lunedì</td>
+          <td>REACT</td>
+          <td>08:40 - 14:00</td>
+        </tr>
+        <tr>
+          <td>Martedì</td>
+          <td>java</td>
+          <td>08:30 - 13:00</td>
+        </tr>
+        <tr>
+          <td>Mercoledì</td>
+          <td>HTML</td>
+          <td>08:30 - 13:00</td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- Video YouTube -->
+    <section id="video">
+      <h2>Video </h2>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+              title="YouTube video" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <!-- Form di contatto -->
+    <section id="contatto">
+      <h2>Contattami</h2>
+      <form method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="messaggio">Messaggio:</label><br>
+        <textarea id="messaggio" name="messaggio" rows="5" cols="40" required></textarea><br><br>
+
+        <input type="submit" value="Invia">
+      </form>
+    </section>
+
+    <p><a href="#top">Torna in cima</a></p>
+  </main>
+
+  <footer>
+    <p>Contatti: simone.gricia@email.com | Telefono: 111 111 1111</p>
+    <p>&copy; 2025 Simone Gricia</p>
+    <p><a href="https://www.youtube.com" target="_blank">Visita il mio sito preferito</a></p>
+  </footer>
+
+</body>
+</html>
