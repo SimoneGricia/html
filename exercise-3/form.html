@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Modulo di Contatto</title>
+  </head>
+  <body>
+    <h1>Contattami</h1>
+
+    <form method="post">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required />
+      <br /><br />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+      <br /><br />
+
+      <label for="messaggio">Messaggio:</label><br />
+      <textarea id="messaggio" name="messaggio" rows="5" cols="40" required></textarea>
+      <br /><br />
+
+      <label for="motivo">Motivo del contatto:</label>
+      <select id="motivo" name="motivo" required>
+        <option value="info">Richiesta informazioni</option>
+        <option value="aiuto">Richiesta di supporto</option>
+        <option value="altro">Altro</option>
+      </select>
+      <br /><br />
+
+      <input type="submit" value="Invia messaggio" />
+    </form>
+  </body>
+</html>
